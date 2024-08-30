@@ -2,4 +2,5 @@
 /cache/
 /resources/\[local\]/
 /db/
-/resources/[*]
+/resources/\[*\]
+/resources/[*]/*
