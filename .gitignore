@@ -3,7 +3,7 @@
 /\[local\]/
 /db/
 /\[gamemodes\]/*
-/\gameplay\]/*
+/\gameplay\]/**
 /\[managers\]/* 
 /\[system\]/*
 /\[test\]/*
