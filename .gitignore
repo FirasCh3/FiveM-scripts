@@ -2,4 +2,9 @@
 /cache/
 /resources/\[local\]/
 /db/
-/resources/\[*\]/
+/resources/\[gamemodes\]/
+/resources/\gameplay\]/
+/resources/\[local\]/
+/resources/\[managers\]/
+/resources/\[system\]/
+/resources/\[test\]/
