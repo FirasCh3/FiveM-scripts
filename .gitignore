@@ -1,9 +1,9 @@
 *.cfg
 /cache/
-/resources/\[local\]/
+/\[local\]/
 /db/
-/resources/\[gamemodes\]/*
-/resources/\gameplay\]/*
-/resources/\[managers\]/* 
-/resources/\[system\]/*
-/resources/\[test\]/*
+/\[gamemodes\]/*
+/\gameplay\]/*
+/\[managers\]/* 
+/\[system\]/*
+/\[test\]/*
