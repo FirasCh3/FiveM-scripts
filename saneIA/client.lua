@@ -5,7 +5,7 @@ Citizen.CreateThread(function()
         for index, ped in pairs(allPeds) do
             if not IsPedAPlayer(ped) then
                 pedCoords = GetEntityCoords(ped)
-                if (#(playerCoords - pedCoords) < 1000 and IsPedInAnyVehicle(ped, true) and not IsPlayerFreeAimingAtEntity(PlayerId(), ped)) then
+                if #(playerCoords - pedCoords) < 1500 and IsPedInAnyVehicle(ped, false) and not IsPlayerFreeAimingAtEntity(PlayerId(), ped) then
                     TaskSetBlockingOfNonTemporaryEvents(ped, true)
                 elseif IsPlayerFreeAimingAtEntity(PlayerId(), ped) then
                     TaskSetBlockingOfNonTemporaryEvents(ped, false)
