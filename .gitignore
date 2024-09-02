@@ -7,3 +7,4 @@
 /\[managers\]/* 
 /\[system\]/*
 /\[test\]/*
+.env
